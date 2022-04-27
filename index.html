@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="background"></div>
+    <div class="container-fluid" id="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-5" id="presentationTitle">
+                <div class="col align-self-center">
+                    <h3 class="h1 text-lg-start text-md-start text-center" id="presentationTitle">Samuel Chadwick</h3>
+                </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="row justify-content-center " id="presentation"> 
+            <!--Container for all presentation content. Grey, transparent background.-->
+            <div class="col-12 col-lg-10 col-md-10 row justify-content-between" id="presentationContainer">
+                <div class="col-12 col-lg-6 h-100" id="presentationText">
+                    <!--Grey background for "Full-Stack Developer" text.-->
+                    <div class="col-12" id="occupation">
+                        <!--"Full-Stack Developer text."-->
+                        <h3 id="FullStack">Full-Stack Developer</h3>
+                    </div>
+                    <div class="col-12" id="information">
+                        <h3 id="informationTitle">Information:</h3>
+                        <!--List for other devices apart of mobile-->
+                        <!--List of personal information and contact-->
+                        <ul id="infoList" class="d-none d-lg-block d-md-block d-sm-block">
+                            <li class="item h5">Name:<span>Samuel Chadwick</span></li>
+                            <li class="item h5">Nationality:<span>Spanish</span></li>
+                            <li class="item h5">Email:<span>sam.chadwick.p@gmail.com</span></li>
+                            <li class="item h5">Discord:<span>Samuel Chadwick#0893</span></li>
+                        </ul>
+                        <!--List for mobile-->
+                        <ul id="infoList" class="d-block d-lg-none d-md-none d-sm-none">
+                            <li class="item h6">Name:<span>Samuel Chadwick</span></li>
+                            <li class="item h6">Nationality:<span>Spanish</span></li>
+                            <li class="item h6">Email:<span>sam.chadwick.p@gmail.com</span></li>
+                            <li class="item h6">Discord:<span>Samuel Chadwick#0893</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--big S logo. Only displays in large laptop and desktop screens.-->
+                <div class="col-6 d-lg-block d-none" id="bigS">
+                    <div class="row align-items-center" id="bigSContainer">
+                        <p class="text-center" id="S"><span>S</span></p>
+                    </div>
+                </div>
+                
+            </div>
+            <!--This div gives space between content and presentation.-->
+            <div class="container" id="space"></div>
+            <!--Container for content-->
+            <div class="container-fluid" id="secondContainer">
+                <div class="row" id="contentRow">
+                    <!--Text with white background-->
+                    <div class="col-6" id="whiteText">
+                        <!--Container for title for text with white background-->
+                        <div class="col" id="whiteTitle">
+                            <!--Title for text with white background-->
+                            <h1 class="text-center" id="myName">Hello! Im <span>Samuel Chadwick</span></h1>
+                        </div>
+                    </div>
+                    <!--Text with black background-->
+                    <div class="col-6" id="blackText"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html> 

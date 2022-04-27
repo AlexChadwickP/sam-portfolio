@@ -1,0 +1,99 @@
+[class*="col"] {
+    padding: 1rem;
+}
+[class*="row"] {
+
+}
+#presentation {
+    height: 20rem;
+}
+#container {
+    position: absolute;
+    height: 100%;
+}
+#presentationTitle {
+    font-family: 'Libre Bodoni', serif;
+    color: white;
+    white-space: nowrap;
+}
+#background {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AphGcmHCJ5asTw5Y2Cpb0jkAvE3GO66B3Q&usqp=CAU");
+    height: 40rem;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+#presentationContainer {
+    background-color: rgba(17, 19, 18, 0.507);
+
+}
+#presentationText {
+}
+#bigS {
+}
+#occupation {
+    background-color: rgba(17, 19, 18, 0.507);
+}
+#information {
+    background-color: rgba(17, 19, 18, 0.507);
+    margin-top: 1em;
+}
+#FullStack {
+    color: rgba(202, 200, 200, 0.932);
+    font-family: 'Nunito Sans', sans-serif;
+}
+#infoList {
+    color: rgba(202, 200, 200, 0.932);
+    list-style: none;
+    padding: 1em;
+    margin-left: -1em;
+    word-wrap: break-word;
+    font-family: 'Nunito Sans', sans-serif;
+    /*font-size: 100%;*/
+}
+#informationTitle {
+    color: rgba(202, 200, 200, 0.932);
+    text-decoration: underline;
+    
+}
+#infoList span{
+    margin-left: 1em;
+    color: white;
+}
+#bigSContainer {
+    height: 100%;
+}
+#S span {
+    font-size: 1300%;
+    color: white;
+    border: solid black 20px;
+    border-style: dashed;
+    font-family: 'Nanum Myeongjo', serif;
+}
+#secondContainer {
+    background-color: blue;
+    height: 200%;
+
+}
+#space {
+    height: 30%;
+}
+#contentRow {
+    background-color: red;
+    height: 100%;
+}
+#whiteText {
+    background-color: white;
+}
+#blackText {
+    background-color: black;
+}
+#whiteTitle {
+    /*background-color: black;*/
+    height: 10%;
+}
+
